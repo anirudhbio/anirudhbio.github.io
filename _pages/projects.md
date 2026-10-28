@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects and iGEM teams I have advised.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, iGEM]
 horizontal: false
 ---
 
