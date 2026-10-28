@@ -83,19 +83,14 @@
       "location": "Sheffield, UK",
       "startDate": "2023-12-01",
       "endDate": "2025-09-01",
-      "highlights": [
-        "Taught 6 undergraduate courses across two academic years"
-      ]
+      "highlights": ["Taught 6 undergraduate courses across two academic years"]
     },
     {
       "name": "SciAstra Education",
       "position": "Program Manager (Part-time, Remote)",
       "location": "NOIDA, India",
       "startDate": "2023-06-01",
-      "highlights": [
-        "Lead workshops and classes for various scientific courses",
-        "Managed 10+ team members across US, UK, EU, and India"
-      ]
+      "highlights": ["Lead workshops and classes for various scientific courses", "Managed 10+ team members across US, UK, EU, and India"]
     }
   ],
   "volunteer": [
@@ -157,10 +152,7 @@
       "endDate": "2027-10-01",
       "score": "",
       "courses": [],
-      "highlights": [
-        "MRC DiMeN Doctoral Training Partnership scholarship recipient",
-        "Supervised by Dr. Robert Fagan (Fagan Lab)"
-      ]
+      "highlights": ["MRC DiMeN Doctoral Training Partnership scholarship recipient", "Supervised by Dr. Robert Fagan (Fagan Lab)"]
     },
     {
       "institution": "HBNI: National Institute of Science Education and Research",
@@ -171,9 +163,7 @@
       "endDate": "2023-05-01",
       "score": "",
       "courses": [],
-      "highlights": [
-        "DISHA Scholarship, Department of Atomic Energy"
-      ]
+      "highlights": ["DISHA Scholarship, Department of Atomic Energy"]
     },
     {
       "institution": "DAV Public School",
@@ -253,27 +243,13 @@
       "name": "Programming",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "R",
-        "PAST",
-        "TensorFlow",
-        "Google Colab"
-      ]
+      "keywords": ["Python", "C++", "R", "PAST", "TensorFlow", "Google Colab"]
     },
     {
       "name": "Tools",
       "level": "",
       "icon": "fa-solid fa-toolbox",
-      "keywords": [
-        "Microsoft Office Suite",
-        "LaTeX",
-        "Notion",
-        "Webflow",
-        "Zapier",
-        "Carrd"
-      ]
+      "keywords": ["Microsoft Office Suite", "LaTeX", "Notion", "Webflow", "Zapier", "Carrd"]
     }
   ],
   "languages": [

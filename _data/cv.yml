@@ -49,14 +49,30 @@ cv:
         highlights:
           - DAV Merit Recognition Award
 
-    Research Experience:
+    Experience:
       - company: Fagan Lab, University of Sheffield
         position: PhD Researcher
-        location: Sheffield, England
+        location: Sheffield, UK
         start_date: 2023-10
         highlights:
           - Engineering C. difficile bacteriophages to combat gut infections
           - Using TEM, Cryo-EM, and structure-guided tools to understand phage structure and host interactions
+
+      - company: University of Sheffield
+        position: Graduate Teaching Assistant (Part-time)
+        location: Sheffield, UK
+        start_date: 2023-12
+        end_date: 2025-09
+        highlights:
+          - Taught 6 undergraduate courses across two academic years
+
+      - company: SciAstra Education
+        position: Program Manager (Part-time, Remote)
+        location: NOIDA, India
+        start_date: 2023-06
+        highlights:
+          - Lead workshops and classes for various scientific courses
+          - Managed 10+ team members across US, UK, EU, and India
 
       - company: Cellular Cytoskeletal Dynamics Lab, NISER
         position: Masters Dissertation Student
@@ -68,9 +84,9 @@ cv:
           - Employed microscopy and FRAP techniques using DeltaVision and Leica microscopes for analysis of plasmid segregation proteins
           - Generated ATP-sensitive mutants of MreB protein and cloned them into a heterologous system
 
-      - company: Max Planck Institute of Evolutionary Biology
+      - company: Max Planck Institute for Evolutionary Biology
         position: Research Intern
-        location: "Plön, Germany"
+        location: Plön, Germany
         start_date: 2022-05
         end_date: 2022-08
         highlights:
@@ -88,132 +104,15 @@ cv:
           - Characterised eight proteins in Drosophila using western blotting and antibody staining
           - Reading project on six techniques for determining respiratory substrate usage by an organism
 
-    Work Experience:
-      - company: University of Sheffield
-        position: Graduate Teaching Assistant (Part-time, In-Person)
-        location: Sheffield, UK
-        start_date: 2023-12
-        end_date: 2025-09
-        highlights:
-          - Taught 6 undergraduate courses across two academic years
-
-      - company: SciAstra Education
-        position: Program Manager (Part-time, Remote)
-        location: "NOIDA, India"
-        start_date: 2023-06
-        highlights:
-          - Lead workshops and classes for various scientific courses
-          - Managed 10+ team members across US, UK, EU, and India
-
-    Grants and Awards:
-      - title: SURE Project Grant
-        date: 2025-04
-        awarder: University of Sheffield
-        summary: Secured funding to hire a student to work on C. difficile phage infection research
-
-      - title: iGEM Synthetic Biology Gold Medal
-        date: 2024-10
-        awarder: iGEM Foundation
-        summary: Advisor for Phosphix team on engineering an enzyme for sustainable fertiliser production
-
-      - title: MRC DiMeN DTP Scholarship
-        date: 2023-10
-        awarder: Medical Research Council
-        summary: Funding awarded for at least four years for a PhD in the DiMeN Doctoral Training Partnership
-
-      - title: DISHA Scholarship
-        date: 2018-08
-        awarder: Department of Atomic Energy, India
-        summary: Monthly scholarship and contingency grant to top 1% STEM students; held for five years (2018–2023)
-
-      - title: Educational Award
-        date: 2017-06
-        awarder: "BEL, Ministry of Defence, India"
-        summary: Merit-based award for excellent achievers in their senior year
-
-      - title: DAV Merit Recognition
-        date: 2018-12
-        awarder: DAV Public School
-        summary: Merit-based award to encourage excellence at DAV Public School
-
-    Conferences and Presentations:
-      - title: UK Cellular Microbiology (Best Talk Award)
-        date: 2024-07
-        awarder: University of Sheffield, UK
-
-      - title: Viruses of Microbes - UK
-        date: 2024-01
-        awarder: University of Northumbria, UK
-
-      - title: NEPG Symposium 2023
-        date: 2023-11
-        awarder: Newcastle University, UK
-
-      - title: CEMBIOS 2023 (Cryo-Electron Microscopy)
-        date: 2023-02
-        awarder: NISER, Bhubaneswar, India
-
-      - title: Genome Structural and Functional Annotation Workshop
-        date: 2022-11
-        awarder: University of Connecticut, USA
-
-      - title: "Biostatistics: A User's Perspective Workshop"
-        date: 2022-02
-        awarder: IISER Pune, India
-
-      - title: Cardiovascular Diseases - New Advances and Translational Applications Workshop
-        date: 2021-09
-        awarder: National University of Singapore
-
-      - title: International Conference for Autophagy and Lysosomes
-        date: 2020-02
-        awarder: Indian Institute of Science, Bangalore
-
-    Publications:
-      - title: A set of genetic tools for use in Clostridioides difficile and related species
-        authors:
-          - H. Fisher
-          - L. de Lussy Kubisa
-          - Anirudh Jakhmola
-          - E. Walker
-          - J. A. Kirk
-          - P. Oatley
-          - R. R. Chaudhuri
-          - G. R. Douce
-          - M. J. Ormsby
-          - R. P. Fagan
-        publisher: Microbiology
-        releaseDate: 2026-02
-        url: https://doi.org/10.1099/mic.0.001665
-        summary: "Microbiology 172(2):001665 (2026). DOI: 10.1099/mic.0.001665"
-
-      - title: A role for the last C-terminal helix of the F plasmid segregating protein SopA in nucleoid binding and plasmid maintenance
-        authors:
-          - D. Mishra
-          - Anirudh Jakhmola
-          - R. Srinivasan
-        publisher: Plasmid
-        releaseDate: 2022-01
-        url: https://doi.org/10.1016/j.plasmid.2022.102617
-        summary: "Plasmid 119-120:102617 (2022). DOI: 10.1016/j.plasmid.2022.102617"
-
-    Theses:
-      - title: Dynamic filament formation by bacterial actin homologs
-        authors:
-          - Anirudh Jakhmola
-        publisher: "MS thesis, National Institute of Science Education and Research, Bhubaneswar"
-        releaseDate: 2023
-        summary: "Integrated BS-MS dissertation, supervised by Dr. Ramanujam Srinivasan"
-
-    Community Involvement:
-      - company: Florey Institute of Infection
+    Volunteer:
+      - company: Florey Institute of Infection, University of Sheffield
         position: Management Team Member
-        location: University of Sheffield
+        location: Sheffield, UK
         start_date: 2024-09
 
-      - company: PGR Core Committee
+      - company: PGR Core Committee, University of Sheffield
         position: Inclusions and Diversity Officer
-        location: University of Sheffield
+        location: Sheffield, UK
         start_date: 2024-09
         end_date: 2025-04
 
@@ -222,6 +121,12 @@ cv:
         location: Bhubaneswar, India
         start_date: 2023-02
         end_date: 2023-02
+
+      - company: NISER, Bhubaneswar
+        position: Science Demonstrator, NISER Open Day
+        location: Bhubaneswar, India
+        start_date: 2019-03
+        end_date: 2019-03
 
       - company: NISER, Bhubaneswar
         position: Audio Manager, Drama and Music Club
@@ -241,11 +146,107 @@ cv:
         start_date: 2019-07
         end_date: 2021-12
 
-      - company: NISER, Bhubaneswar
-        position: Science Demonstrator, NISER Open Day
-        location: Bhubaneswar, India
-        start_date: 2019-03
-        end_date: 2019-03
+    Awards:
+      - title: SURE Project Grant
+        authors:
+          - University of Sheffield
+        date: 2025-04
+        awarder: University of Sheffield
+        summary: Secured funding to hire a student to work on C. difficile phage infection research
+
+      - title: Best Talk Award, UK Cellular Microbiology
+        authors:
+          - University of Sheffield
+        date: 2024-07
+        awarder: University of Sheffield
+
+      - title: iGEM Synthetic Biology Gold Medal
+        authors:
+          - iGEM Foundation
+        date: 2024-10
+        awarder: iGEM Foundation
+        summary: Advisor for Phosphix team on engineering an enzyme for sustainable fertiliser production
+
+      - title: MRC DiMeN DTP Scholarship
+        authors:
+          - Medical Research Council
+        date: 2023-10
+        awarder: Medical Research Council
+        summary: Funding awarded for at least four years for a PhD in the DiMeN Doctoral Training Partnership
+
+      - title: DISHA Scholarship
+        authors:
+          - Department of Atomic Energy, India
+        date: 2018-08
+        awarder: Department of Atomic Energy, India
+        summary: Monthly scholarship and contingency grant to top 1% STEM students; held for five years (2018–2023)
+
+      - title: DAV Merit Recognition
+        authors:
+          - DAV Public School
+        date: 2018-12
+        awarder: DAV Public School
+        summary: Merit-based award to encourage excellence at DAV Public School
+
+      - title: Educational Award
+        authors:
+          - BEL, Ministry of Defence, India
+        date: 2017-06
+        awarder: BEL, Ministry of Defence, India
+        summary: Merit-based award for excellent achievers in their senior year
+
+    Conferences and Presentations:
+      - bullet: "**UK Cellular Microbiology** (Best Talk Award), University of Sheffield, UK, Jul 2024"
+      - bullet: "**Viruses of Microbes UK**, Northumbria University, UK, Jan 2024"
+      - bullet: "**NEPG Symposium 2023**, Newcastle University, UK, Nov 2023"
+      - bullet: "**CEMBIOS 2023** (Cryo-Electron Microscopy), NISER, Bhubaneswar, India, Feb 2023"
+      - bullet: "**Genome Structural and Functional Annotation Workshop**, University of Connecticut, USA, Nov 2022"
+      - bullet: "**Biostatistics: A User's Perspective Workshop**, IISER Pune, India, Feb 2022"
+      - bullet: "**Cardiovascular Diseases: New Advances and Translational Applications Workshop**, National University of Singapore, Sep 2021"
+      - bullet: "**International Conference for Autophagy and Lysosomes**, Indian Institute of Science, Bangalore, Feb 2020"
+
+    Publications:
+      - title: A set of genetic tools for use in Clostridioides difficile and related species
+        authors:
+          - H. Fisher
+          - L. de Lussy Kubisa
+          - "***Anirudh Jakhmola***"
+          - E. Walker
+          - J. A. Kirk
+          - P. Oatley
+          - R. R. Chaudhuri
+          - G. R. Douce
+          - M. J. Ormsby
+          - R. P. Fagan
+        publisher: Microbiology
+        journal: Microbiology
+        date: 2026-02
+        releaseDate: 2026-02
+        doi: 10.1099/mic.0.001665
+        url: https://doi.org/10.1099/mic.0.001665
+        summary: "Microbiology 172(2):001665 (2026)"
+
+      - title: "Dynamic filament formation by bacterial actin homologs (MS thesis)"
+        authors:
+          - "***Anirudh Jakhmola***"
+        publisher: National Institute of Science Education and Research, Bhubaneswar
+        journal: MS thesis, NISER Bhubaneswar
+        date: 2023-05
+        releaseDate: 2023-05
+        summary: Integrated BS-MS dissertation, supervised by Dr. Ramanujam Srinivasan
+
+      - title: A role for the last C-terminal helix of the F plasmid segregating protein SopA in nucleoid binding and plasmid maintenance
+        authors:
+          - D. Mishra
+          - "***Anirudh Jakhmola***"
+          - R. Srinivasan
+        publisher: Plasmid
+        journal: Plasmid
+        date: 2022-01
+        releaseDate: 2022-01
+        doi: 10.1016/j.plasmid.2022.102617
+        url: https://doi.org/10.1016/j.plasmid.2022.102617
+        summary: "Plasmid 119-120:102617 (2022)"
 
     Skills:
       - name: Lab Skills

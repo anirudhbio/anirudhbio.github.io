@@ -56,10 +56,10 @@ on:
       - "!docs/INSTALL.md"
       - "!README.md"
   workflow_dispatch:
-  # Commits pushed by the citations workflow use GITHUB_TOKEN and can't trigger a push event,
-  # so redeploy whenever that workflow finishes.
+  # Commits pushed by these workflows use GITHUB_TOKEN and can't trigger a push event,
+  # so redeploy whenever one of them finishes.
   workflow_run:
-    workflows: ["Update Google Scholar Citations"]
+    workflows: ["Update Google Scholar Citations", "Render a CV"]
     types: [completed]
 
 permissions:
