@@ -208,9 +208,9 @@ cv:
     Publications:
       - title: A set of genetic tools for use in Clostridioides difficile and related species
         authors:
-          - H. Fisher
-          - L. de Lussy Kubisa
-          - "***Anirudh Jakhmola***"
+          - H. Fisher†
+          - L. de Lussy Kubisa†
+          - "***Anirudh Jakhmola†***"
           - E. Walker
           - J. A. Kirk
           - P. Oatley
@@ -224,7 +224,7 @@ cv:
         releaseDate: 2026-02
         doi: 10.1099/mic.0.001665
         url: https://doi.org/10.1099/mic.0.001665
-        summary: "Microbiology 172(2):001665 (2026)"
+        summary: "Microbiology 172(2):001665 (2026). † Joint first authors."
 
       - title: "Dynamic filament formation by bacterial actin homologs (MS thesis)"
         authors:
