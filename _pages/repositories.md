@@ -7,41 +7,18 @@ nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+<link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url | bust_file_cache }}">
 
-## GitHub users
+{% assign gh_user = site.data.repositories.github_profile %}
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
+<div class="repo-grid">
+  {% for repo in site.data.repositories.repos %}
+  <a class="repo-card" href="https://github.com/{{ gh_user }}/{{ repo.name }}" target="_blank" rel="noopener noreferrer">
+    <span class="repo-card-name"><i class="fa-brands fa-github"></i> {{ repo.name }}</span>
+    {% if repo.description %}<span class="repo-card-desc">{{ repo.description }}</span>{% endif %}
+    {% if repo.language %}<span class="repo-card-lang">{{ repo.language }}</span>{% endif %}
+  </a>
   {% endfor %}
 </div>
 
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+<p class="repo-profile-link">More on <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener noreferrer">github.com/{{ gh_user }}</a>.</p>

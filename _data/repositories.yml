@@ -1,9 +1,12 @@
-github_users:
-  - funnirudh
+# Shown on the repositories page (_pages/repositories.md) as static cards.
+# The template's github-readme-stats cards were dropped because that public service no longer serves images.
+github_profile: funnirudh
 
-repo_description_lines_max: 2
-
-github_repos:
-  - funnirudh/PhageAnnotation
-  - funnirudh/custom_prophage_search
-  - funnirudh/triple-blast-helix
+repos:
+  - name: PhageAnnotation
+    description: Phage genome annotation pipeline combining Phold, Phynteny and Pharokka.
+    language: Jupyter Notebook
+  - name: custom_prophage_search
+    language: Python
+  - name: triple-blast-helix
+    language: Python

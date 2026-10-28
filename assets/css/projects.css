@@ -1,4 +1,4 @@
-/* Keep project cards uniform: same thumbnail shape and title size (linked from _pages/projects.md) */
+/* Card styles for the projects and repositories pages */
 
 .projects .card-img-top,
 .projects .card picture img {
@@ -14,4 +14,49 @@
 
 .projects .card-text {
   font-size: 0.95rem;
+}
+
+/* Repository cards (linked from _pages/repositories.md) */
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+}
+
+.repo-card:hover {
+  text-decoration: none;
+  border-color: var(--global-theme-color);
+}
+
+.repo-card-name {
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.repo-card-desc {
+  font-size: 0.9rem;
+}
+
+.repo-card-lang {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.repo-profile-link {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
 }
