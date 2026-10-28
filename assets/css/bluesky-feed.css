@@ -1,4 +1,4 @@
-/* Front-page layout with a Bluesky feed column (see _layouts/about.liquid) */
+/* Front-page layout with a Bluesky feed column (markup in _pages/about.md) */
 
 .about-with-feed {
   display: block;

@@ -1,5 +1,5 @@
 // Renders a Bluesky author feed from the public, unauthenticated Bluesky API.
-// Markup lives in _includes/bluesky_feed.liquid; styles in assets/css/bluesky-feed.css.
+// Markup lives in _pages/about.md; styles in assets/css/bluesky-feed.css.
 (function () {
   const API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed";
 
@@ -140,7 +140,17 @@
     }
   }
 
+  // The feed is written inside the page content; lift it out so it can sit beside the whole article.
+  function placeBeside(aside) {
+    const article = aside.closest("article");
+    if (!article || !article.parentNode) return;
+    const wrapper = el("div", "about-with-feed");
+    article.parentNode.insertBefore(wrapper, article);
+    wrapper.append(article, aside);
+  }
+
   function init() {
+    document.querySelectorAll("aside.bsky-feed").forEach(placeBeside);
     document.querySelectorAll("[data-bsky-handle]").forEach(load);
   }
 

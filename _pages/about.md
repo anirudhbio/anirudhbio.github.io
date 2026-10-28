@@ -37,3 +37,19 @@ A central component of my work involves cryo-electron microscopy for high-resolu
 
 Beyond my doctoral research, I am committed to translating biological insight into tangible healthcare solutions. I serve as a scientific advisor to the University of Sheffield iGEM team, where I guide student-led projects at the intersection of synthetic biology and medicine — most recently on engineered exosome-based delivery systems targeting the central nervous system.
 I completed my undergraduate degree at the National Institute of Science Education and Research (NISER), Bhubaneswar, and conducted research at the Max Planck Institute for Evolutionary Biology prior to my doctoral studies.
+
+<!-- Bluesky feed: assets/js/bluesky-feed.js moves this beside the page content and fills it from the public Bluesky API -->
+
+{% assign bsky_handle = page.bluesky.handle %}
+
+<link rel="stylesheet" href="{{ '/assets/css/bluesky-feed.css' | relative_url | bust_file_cache }}">
+<aside class="bsky-feed" aria-labelledby="bsky-feed-title">
+  <div class="bsky-feed-header">
+    <h2 id="bsky-feed-title"><a href="https://bsky.app/profile/{{ bsky_handle }}" target="_blank" rel="noopener noreferrer">bluesky</a></h2>
+    <a class="bsky-feed-follow" href="https://bsky.app/profile/{{ bsky_handle }}" target="_blank" rel="noopener noreferrer">@{{ bsky_handle }}</a>
+  </div>
+  <ol class="bsky-feed-list" data-bsky-handle="{{ bsky_handle }}" data-bsky-limit="{{ page.bluesky.limit | default: 8 }}">
+    <li class="bsky-feed-status">Loading posts…</li>
+  </ol>
+</aside>
+<script defer src="{{ '/assets/js/bluesky-feed.js' | relative_url | bust_file_cache }}"></script>
