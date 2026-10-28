@@ -3,7 +3,7 @@ layout: page
 title: ParM plasmid segregation
 description: Characterising newly discovered bacterial ParM homologs in a heterologous system
 img: assets/img/projects/parm.jpg
-importance: 2
+importance: 3
 category: research
 ---
 

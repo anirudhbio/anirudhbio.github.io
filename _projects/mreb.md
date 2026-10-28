@@ -3,7 +3,7 @@ layout: page
 title: MreB ATP-binding mutants
 description: Testing how mutations at predicted ATP-binding sites affect MreB polymerisation in fission yeast
 img: assets/img/projects/mreb.jpg
-importance: 3
+importance: 2
 category: research
 ---
 

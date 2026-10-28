@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects and iGEM teams I have advised.
 nav: true
 nav_order: 3
-display_categories: [research, iGEM]
+display_categories: [iGEM, research]
 horizontal: false
 ---
 
