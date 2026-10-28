@@ -9,6 +9,8 @@ display_categories: [iGEM, research]
 horizontal: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url | bust_file_cache }}">
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
