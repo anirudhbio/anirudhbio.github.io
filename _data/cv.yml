@@ -170,15 +170,40 @@ cv:
         awarder: Indian Institute of Science, Bangalore
 
     Publications:
-      - title: A role for the C-terminal helix of the F plasmid segregating protein SopA in plasmid maintenance
+      - title: A set of genetic tools for use in Clostridioides difficile and related species
+        authors:
+          - H. Fisher
+          - L. de Lussy Kubisa
+          - Anirudh Jakhmola
+          - E. Walker
+          - J. A. Kirk
+          - P. Oatley
+          - R. R. Chaudhuri
+          - G. R. Douce
+          - M. J. Ormsby
+          - R. P. Fagan
+        publisher: Microbiology
+        releaseDate: 2026-02
+        url: https://doi.org/10.1099/mic.0.001665
+        summary: "Microbiology 172(2):001665 (2026). DOI: 10.1099/mic.0.001665"
+
+      - title: A role for the last C-terminal helix of the F plasmid segregating protein SopA in nucleoid binding and plasmid maintenance
         authors:
           - D. Mishra
           - Anirudh Jakhmola
           - R. Srinivasan
         publisher: Plasmid
-        releaseDate: 2022
+        releaseDate: 2022-01
         url: https://doi.org/10.1016/j.plasmid.2022.102617
-        summary: "Plasmid (2022). DOI: 10.1016/j.plasmid.2022.102617"
+        summary: "Plasmid 119-120:102617 (2022). DOI: 10.1016/j.plasmid.2022.102617"
+
+    Theses:
+      - title: Dynamic filament formation by bacterial actin homologs
+        authors:
+          - Anirudh Jakhmola
+        publisher: "MS thesis, National Institute of Science Education and Research, Bhubaneswar"
+        releaseDate: 2023
+        summary: "Integrated BS-MS dissertation, supervised by Dr. Ramanujam Srinivasan"
 
     Community Involvement:
       - company: Florey Institute of Infection
