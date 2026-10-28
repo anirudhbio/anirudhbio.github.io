@@ -32,8 +32,7 @@ latest_posts:
 ---
 
 <blockquote class="block-tip">
-  <h5>Open to postdoctoral positions</h5>
-  <p>I am looking for postdoctoral roles in phage biology, structural biology (cryo-EM) and bacterial genetics. Please <a href="mailto:ajakhmola1@sheffield.ac.uk">get in touch</a> if you have an opening or would like to collaborate.</p>
+  <h5 class="mb-0">Open to postdoctoral positions</h5>
 </blockquote>
 
 I am a PhD researcher in the [Fagan Lab](https://faganlab.com) at the University of Sheffield, funded through the MRC DiMeN Doctoral Training Partnership. My research focuses on the biology of bacteriophages infecting _Clostridioides difficile_ — one of the most clinically significant nosocomial pathogens globally. I am particularly interested in phage-host interactions at the molecular level: how phages integrate into and excise from the _C. difficile_ chromosome, how they remodel host physiology during infection, and how their structural proteins can be engineered for therapeutic or diagnostic applications.
