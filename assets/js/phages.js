@@ -2,7 +2,7 @@
 // Purely decorative: hidden from screen readers, ignores clicks, skipped when the margins are too narrow.
 (function () {
   const PHAGE_SVG =
-    '<svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">' +
+    '<svg viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">' +
     '<polygon points="20,2 28.7,7 28.7,17 20,22 11.3,17 11.3,7"/>' +
     '<polyline points="11.3,7 20,12 28.7,7"/><line x1="20" y1="12" x2="20" y2="22"/>' +
     '<rect x="16" y="22" width="8" height="2.5"/>' +
@@ -52,7 +52,7 @@
       [rect.right, rightGutter],
     ].forEach(([start, gutter]) => {
       for (let i = 0; i < perSide; i++) {
-        const size = 22 + Math.round(random() * 14);
+        const size = 32 + Math.round(random() * 16);
         const slot = height / perSide;
         const phage = document.createElement("div");
         phage.className = "phage-deco";

@@ -13,7 +13,7 @@
 .phage-deco {
   position: absolute;
   color: var(--global-theme-color);
-  opacity: 0.22;
+  opacity: 0.45;
   animation: phage-drift 9s ease-in-out infinite alternate;
 }
 
