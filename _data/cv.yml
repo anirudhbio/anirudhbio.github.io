@@ -1,6 +1,6 @@
 cv:
   name: Anirudh Jakhmola
-  label: PhD Researcher | Phage Biology & Cryo-EM
+  headline: PhD Researcher | Phage Biology & Cryo-EM
   email: ajakhmola1@sheffield.ac.uk
   location: Sheffield, UK
   image: "prof_pic.jpg"
@@ -196,6 +196,10 @@ cv:
         summary: Merit-based award for excellent achievers in their senior year
 
     Conferences and Presentations:
+      - bullet: "**Microbiology Society Annual Conference 2026** (talk and poster), Belfast, UK, Apr 2026"
+      - bullet: "**Viruses of Microbes UK 2026** (talk and poster), Newcastle, UK, Jan 2026"
+      - bullet: "**ClostPath 2025**, 14th International Conference on the Molecular Biology and Pathogenesis of Clostridia (poster), Institut Pasteur, Paris, France, Sep 2025"
+      - bullet: "**Cross-Channel C. difficile Forum 2025** (talk), Newcastle, UK, Jun 2025"
       - bullet: "**UK Cellular Microbiology** (Best Talk Award), University of Sheffield, UK, Jul 2024"
       - bullet: "**Viruses of Microbes UK**, Northumbria University, UK, Jan 2024"
       - bullet: "**NEPG Symposium 2023**, Newcastle University, UK, Nov 2023"
