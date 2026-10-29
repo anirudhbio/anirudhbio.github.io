@@ -1,0 +1,45 @@
+/* Small decorative phages in the page margins (drawn by assets/js/phages.js, loaded from footer_text in _config.yml) */
+
+.phage-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.phage-deco {
+  position: absolute;
+  color: var(--global-theme-color);
+  opacity: 0.22;
+  animation: phage-drift 9s ease-in-out infinite alternate;
+}
+
+.phage-deco svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes phage-drift {
+  from {
+    translate: 0 -4px;
+  }
+  to {
+    translate: 0 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phage-deco {
+    animation: none;
+  }
+}
+
+@media print {
+  .phage-layer {
+    display: none;
+  }
+}
