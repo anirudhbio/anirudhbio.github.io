@@ -54,6 +54,7 @@ cv:
         position: PhD Researcher
         location: Sheffield, UK
         start_date: 2023-10
+        end_date: present
         highlights:
           - Engineering C. difficile bacteriophages to combat gut infections
           - Using TEM, Cryo-EM, and structure-guided tools to understand phage structure and host interactions
@@ -68,8 +69,9 @@ cv:
 
       - company: SciAstra Education
         position: Program Manager (Part-time, Remote)
-        location: NOIDA, India
+        location: Noida, India
         start_date: 2023-06
+        end_date: present
         highlights:
           - Lead workshops and classes for various scientific courses
           - Managed 10+ team members across US, UK, EU, and India
@@ -109,6 +111,7 @@ cv:
         position: Management Team Member
         location: Sheffield, UK
         start_date: 2024-09
+        end_date: present
 
       - company: PGR Core Committee, University of Sheffield
         position: Inclusions and Diversity Officer

@@ -1,3 +1,18 @@
+// Site-wide extras, loaded on every page from footer_text in _config.yml.
+
+// CV date badges: the theme prints single-year roles as "2022 - 2022"; show just "2022".
+(function () {
+  function tidyDates() {
+    document.querySelectorAll(".date-column .badge").forEach((badge) => {
+      const match = badge.textContent.trim().match(/^(\d{4})\s*-\s*(\d{4})$/);
+      if (match && match[1] === match[2]) badge.textContent = match[1];
+    });
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tidyDates);
+  else tidyDates();
+})();
+
 // Scatters a few small bacteriophage drawings in the empty side margins of each page.
 // Purely decorative: hidden from screen readers, ignores clicks, skipped when the margins are too narrow.
 (function () {
