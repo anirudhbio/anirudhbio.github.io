@@ -278,14 +278,4 @@ cv:
         summary: "Elementary"
 
     References:
-      - name: Dr. Robert Fagan
-        icon: fa-solid fa-envelope
-        reference: "r.fagan@sheffield.ac.uk | University of Sheffield, Sheffield, UK"
-
-      - name: Dr. Frederic Bertels
-        icon: fa-solid fa-envelope
-        reference: "bertels@evolbio.mpg.de | Max Planck Institute for Evolutionary Biology, Plön, Germany"
-
-      - name: Dr. Ramanujam Srinivasan
-        icon: fa-solid fa-envelope
-        reference: "rsrini@niser.ac.in | National Institute of Science Education and Research, Bhubaneswar, India"
+      - name: Available upon request
