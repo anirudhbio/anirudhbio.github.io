@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: Code for phage genomics and bioinformatics.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url | bust_file_cache }}">
