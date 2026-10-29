@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<blockquote class="block-tip">
+<blockquote class="block-tip" style="display: flow-root">
   <h5 class="mb-0">Open to postdoctoral positions</h5>
 </blockquote>
 
